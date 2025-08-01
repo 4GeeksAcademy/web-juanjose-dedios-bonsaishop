@@ -7,7 +7,8 @@ body{
     justify-content: end;
 }
 .nombretienda{
-    margin-right:900px ;
+    font-size: 20px;
+    margin-right:1320px ;
     font-family:'Courier New', Courier, monospace
 }
 .elementosheader{
@@ -29,4 +30,56 @@ body{
 }
 .cabecerabody{
     font-family: 'Courier New', Courier, monospace;
+}
+.informacion{
+    display: flex;
+    flex-direction:row;
+}
+.bonsaiproducto{
+    border-bottom: 1px solid grey;
+}
+.rightbody{
+    margin-left: 50px ;
+}
+.Bonsaiconlibro{
+    width: 290px;
+
+    height: 290px;
+}
+.Bonsaifotomedio{
+    width: 290px;
+    height: 290px;
+
+}
+.Bonsaifotoizquierda{
+    width: 290px;
+
+    height: 290px;
+}
+.fotosinferiores{
+    width: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.fotoprincipal{
+    width: 900px;
+}
+.nameproduct{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pricebonsai{
+    font-size: 50px;
+}
+.descripcionbonsai{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.botoncompra button{
+    width: 400px;
+    height: 100px;
+    color: white;
+    background-color: black;
 }
